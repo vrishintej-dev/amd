@@ -1,0 +1,17 @@
+# Nothing here may depend on torch (torch-dependent packages are installed with
+# --no-deps in the Dockerfile).
+pypdf>=5.0
+pypdfium2>=4.30
+python-docx>=1.1
+openpyxl>=3.1
+huggingface_hub>=0.34
+tokenizers>=0.21
+safetensors>=0.4
+regex
+pyyaml
+tqdm
+filelock
+packaging
+requests
+jinja2
+numpy
